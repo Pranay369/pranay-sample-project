@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Your Name — developer and builder. Projects, skills, and contact."
+    />
+
+    <!-- Replace YOUR_SITE_URL with your live URL after deploy (e.g. https://username.github.io/repo-name/) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://YOUR_SITE_URL/" />
+    <meta property="og:title" content="Your Name — Portfolio" />
+    <meta
+      property="og:description"
+      content="Portfolio of Your Name — developer and builder. Projects, skills, and contact."
+    />
+    <meta property="og:image" content="https://YOUR_SITE_URL/assets/images/og-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <title>Your Name — Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>YN</text></svg>" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="#">YN</a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-inner">
+          <p class="hero-kicker">Hello, I’m</p>
+          <h1 id="hero-heading" class="hero-title">Your Name</h1>
+          <p class="hero-role">Software developer · Builder of useful things</p>
+          <p class="hero-lead">
+            I design and ship web experiences that are fast, accessible, and easy to maintain.
+            Replace this paragraph with your own one-line story.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-heading">
+        <div class="section-inner">
+          <h2 id="about-heading" class="section-title">About</h2>
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                Write a short bio here: what you do, what you care about, and what you’re looking
+                for next. Two or three sentences is enough for a first version.
+              </p>
+              <p>
+                Mention your background, favorite stack, or industries you’ve worked in. Keep it
+                scannable — visitors often skim before diving into projects.
+              </p>
+            </div>
+            <aside class="about-aside" aria-label="Quick facts">
+              <ul class="fact-list">
+                <li><span class="fact-label">Location</span> Your city, Country</li>
+                <li><span class="fact-label">Focus</span> Web, APIs, product</li>
+                <li><span class="fact-label">Open to</span> Full-time · Freelance</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects" aria-labelledby="projects-heading">
+        <div class="section-inner">
+          <h2 id="projects-heading" class="section-title">Projects</h2>
+          <p class="section-intro">
+            A few things I’ve built. Swap titles, descriptions, and links for your real work.
+          </p>
+          <ul class="project-grid">
+            <li class="project-card">
+              <h3 class="project-title">Project Alpha</h3>
+              <p class="project-desc">
+                One or two lines on the problem you solved and the tech you used.
+              </p>
+              <div class="project-links">
+                <a href="#" rel="noopener noreferrer">Live demo</a>
+                <a href="#" rel="noopener noreferrer">Source</a>
+              </div>
+            </li>
+            <li class="project-card">
+              <h3 class="project-title">Project Beta</h3>
+              <p class="project-desc">
+                Another short summary. Metrics help — e.g. “cut load time by 40%.”
+              </p>
+              <div class="project-links">
+                <a href="#" rel="noopener noreferrer">Live demo</a>
+                <a href="#" rel="noopener noreferrer">Source</a>
+              </div>
+            </li>
+            <li class="project-card">
+              <h3 class="project-title">Project Gamma</h3>
+              <p class="project-desc">
+                Open source, internal tool, or client work — whatever best represents you.
+              </p>
+              <div class="project-links">
+                <a href="#" rel="noopener noreferrer">Live demo</a>
+                <a href="#" rel="noopener noreferrer">Source</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills" aria-labelledby="skills-heading">
+        <div class="section-inner">
+          <h2 id="skills-heading" class="section-title">Skills</h2>
+          <p class="section-intro">Tools and topics I use regularly.</p>
+          <ul class="skill-tags" aria-label="Skills">
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>HTML &amp; CSS</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git</li>
+            <li>REST APIs</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-heading">
+        <div class="section-inner contact-inner">
+          <h2 id="contact-heading" class="section-title">Contact</h2>
+          <p class="section-intro">
+            Prefer email or LinkedIn? Update these links with your real profiles.
+          </p>
+          <ul class="contact-links">
+            <li>
+              <a class="contact-btn" href="mailto:you@example.com">Email me</a>
+            </li>
+            <li>
+              <a
+                class="contact-btn contact-btn-outline"
+                href="https://www.linkedin.com/in/your-profile/"
+                rel="noopener noreferrer"
+              >LinkedIn</a>
+            </li>
+            <li>
+              <a
+                class="contact-btn contact-btn-outline"
+                href="https://github.com/your-username"
+                rel="noopener noreferrer"
+              >GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>&copy; <span id="year"></span> Your Name. Static site — host free on GitHub Pages or Cloudflare Pages.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
