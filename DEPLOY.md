@@ -4,7 +4,7 @@ This site is **static** (HTML, CSS, JS). You can host it for free on **GitHub Pa
 
 ## Before you publish
 
-1. In [`index.html`](index.html), replace every `https://YOUR_SITE_URL` with your real URL (including trailing path if the site lives in a project repo, e.g. `https://username.github.io/repo-name`).
+1. In [`index.html`](index.html), set Open Graph and canonical URLs to your live site (this project uses GitHub Pages at `https://pranay369.github.io/pranay-sample-project/` unless you use a custom domain).
 2. Add an Open Graph image (optional but recommended for LinkedIn): save as `assets/images/og-preview.png` (about **1200×630** pixels). Update `og:image` if your filename or path differs.
 3. Replace placeholder copy, links (`mailto:`, LinkedIn, GitHub), and project URLs.
 
